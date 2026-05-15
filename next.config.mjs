@@ -1,4 +1,3 @@
-javascript
 const nextConfig = {
   reactStrictMode: true,
 }

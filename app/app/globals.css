@@ -1,7 +1,22 @@
-这个文件会帮我们把整个应用的视觉风格定下来，包括：
-- 漂亮的深色背景
-- 紫色的主要色调
-- 温暖的金色辅助色
-- 清新的蓝色点缀
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-简单来说，它就像一个"调色板"，告诉应用该用什么颜色和样式来展示内容。
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  color: #fff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+```

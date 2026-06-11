@@ -510,10 +510,3 @@ export function getSlotMachineThemeByNumber(number: number): SlotMachineTheme | 
 export function getAllSlotMachineThemes(): SlotMachineTheme[] {
   return SLOT_MACHINE_THEMES
 } 
-export function getSlotMachineThemeByNumber(number: number): SlotMachineTheme | undefined {
-  return SLOT_MACHINE_THEMES.find(theme => theme.number === number)
-}
-
-export function getAllSlotMachineThemes(): SlotMachineTheme[] {
-  return SLOT_MACHINE_THEMES
-}
